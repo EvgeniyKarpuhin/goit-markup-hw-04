@@ -172,12 +172,46 @@ ul {
 }
 
 .type-text h3 {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
 }
 
-.type-text p {
+/* .type-text p {
     margin-bottom: 30px;
+} */
+
+.type-text-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-modern {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    
+}
+
+.social-modern i {
+    line-height: 2.8;
+    width: 44px;
+    height: 44px;
+}
+
+.fab {
+    width: 20px;
+    height: 20px;
+    line-height: 1.4;
+    color: #AFB1B8;
+    cursor: pointer;
+}
+
+.fab:hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2196F3
 }
 
 .btn {
@@ -236,6 +270,7 @@ ul {
     font-style: normal;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 16px;
 }
 
 .foot {
