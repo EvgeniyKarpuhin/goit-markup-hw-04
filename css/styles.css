@@ -44,6 +44,15 @@ h3 {
     letter-spacing: 0.03em;
 }
 
+h4 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
 ul {
     list-style: none;
 }
@@ -51,6 +60,7 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p,
 ul {
     margin: 0;
@@ -204,6 +214,7 @@ ul {
     line-height: 1.4;
     color: #AFB1B8;
     cursor: pointer;
+    
 }
 
 .fab:hover {
@@ -365,7 +376,9 @@ ul {
     padding-bottom: 60px;
 }
 
-
+.social {
+    display: flex;
+}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -401,7 +414,6 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
     align-items: center;
 }
 
@@ -414,3 +426,73 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.adress-social {
+    margin-left: 70px;
+}
+
+.adress-social h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-social-adress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-adress i {
+    text-align: center;
+    line-height: 2.8;
+    width: 44px;
+    height: 44px;
+}
+
+.adress-social .fab {
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+}
+
+.adress-social .fab:last-child {
+    margin-right: 0;
+}
+
+.adress-social .fab:hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2196F3
+}
+
+/* .social-modern {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    
+}
+
+.social-modern i {
+    line-height: 2.8;
+    width: 44px;
+    height: 44px;
+}
+
+.fab {
+    width: 20px;
+    height: 20px;
+    line-height: 1.4;
+    color: #AFB1B8;
+    cursor: pointer;
+    
+}
+
+.fab:hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    background-color: #2196F3
+} */
