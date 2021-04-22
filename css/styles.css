@@ -206,27 +206,36 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+   
 }
 
-.fab {
-    width: 20px;
-    height: 20px;
-    line-height: 1.4;
-    color: #AFB1B8;
-    
-    
-}
-
-.fab:hover {
+.social-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: white;
-    background-color: #2196F3
-    
 }
+
+.social-size:hover {
+  
+    background-color: #2196F3
+}
+
+.fab {
+    font-size: 20px;
+    color: #AFB1B8;
+    border-radius: 50%;
+   
+}
+
+.fab:hover {
+    color: white;
+}
+
+
+
 
 .btn {
     width: 200px;
