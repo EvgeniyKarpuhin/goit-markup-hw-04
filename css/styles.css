@@ -202,8 +202,10 @@ ul {
     
 }
 
-.social-modern i {
-    line-height: 2.8;
+.social-modern-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
 }
@@ -213,7 +215,7 @@ ul {
     height: 20px;
     line-height: 1.4;
     color: #AFB1B8;
-    cursor: pointer;
+    
     
 }
 
@@ -223,6 +225,7 @@ ul {
     border-radius: 50%;
     color: white;
     background-color: #2196F3
+    
 }
 
 .btn {
@@ -466,33 +469,3 @@ ul {
     color: white;
     background-color: #2196F3
 }
-
-/* .social-modern {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 32px;
-    
-}
-
-.social-modern i {
-    line-height: 2.8;
-    width: 44px;
-    height: 44px;
-}
-
-.fab {
-    width: 20px;
-    height: 20px;
-    line-height: 1.4;
-    color: #AFB1B8;
-    cursor: pointer;
-    
-}
-
-.fab:hover {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: white;
-    background-color: #2196F3
-} */
