@@ -217,13 +217,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
     border-radius: 50%;
 }
 
 .social-size:hover {
-  
+    color: white;
     background-color: #2196F3
 }
 
@@ -231,15 +229,13 @@ ul {
     font-size: 20px;
     color: #AFB1B8;
     border-radius: 50%;
-   
+    width: 44px;
+    height: 44px;
 }
 
 .fab:hover {
     color: white;
 }
-
-
-
 
 .btn {
     width: 200px;
@@ -393,6 +389,10 @@ ul {
 }
 
 .our-clients-block {
+   
+}
+
+.clients-href {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,6 +401,11 @@ ul {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.clients-href:hover {
+    border: 1px solid #2196F3;
+    
 }
 
 .footer {
