@@ -206,7 +206,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    
+}
+
+.social-modern-type:last-child {
+    margin-right: 0;
 }
 
 .social-size {
@@ -382,6 +386,23 @@ ul {
     color: #757575;
 }
 
+.our-clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-clients-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 .footer {
     background: #2F303A;
     padding-top: 60px;
@@ -453,8 +474,9 @@ ul {
 }
 
 .footer-social-adress i {
-    text-align: center;
-    line-height: 2.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
 }
@@ -477,4 +499,15 @@ ul {
     border-radius: 50%;
     color: white;
     background-color: #2196F3
+}
+
+.social-modern-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.social-modern-footer:last-child {
+    margin-right: 0;
 }
