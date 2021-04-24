@@ -285,6 +285,13 @@ ul {
     justify-content: space-between;
 }
 
+.main-type-section {
+    padding: 25px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 .name-title {
     font-weight: bold;
     font-size: 14px;
