@@ -385,6 +385,10 @@ ul {
     color: #757575;
 }
 
+.clients {
+    padding-top: 94px;
+}
+
 .our-clients {
     display: flex;
     justify-content: space-between;
