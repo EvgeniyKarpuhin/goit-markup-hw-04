@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
     color: black;
     margin: 0;
     padding: 0;
@@ -258,9 +257,13 @@ ul {
 }
 
 .decision {
-    background-color: #2F303A;
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url(../images/social/Img-logo-head.png);
+    background-repeat: no-repeat;
     text-align: center;
     padding: 200px 0;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info {
@@ -388,10 +391,6 @@ ul {
     align-items: center;
 }
 
-.our-clients-block {
-   
-}
-
 .clients-href {
     display: flex;
     justify-content: center;
@@ -407,9 +406,6 @@ ul {
     border: 1px solid #2196F3; 
 }
 
-.image-client:hover {
-    color: red;
-}
 
 .footer {
     background: #2F303A;
