@@ -211,6 +211,7 @@ ul {
 }
 
 .social-size:hover {
+    color: white;
     background-color: #2196F3
 }
 
@@ -218,9 +219,6 @@ ul {
     fill: #AFB1B8;
 }
 
-.soc-icons:hover {
-    fill: white;
-}
 
 .btn {
     width: 200px;
