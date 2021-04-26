@@ -211,16 +211,18 @@ ul {
     color: #AFB1B8;
 }
 
-
+.soc-icons {
+    fill: currentColor;
+}
 
 .social-size:hover {
     color: white;
     background-color: #2196F3
 }
 
-.soc-icons {
+/* .soc-icons {
     fill: currentColor;
-}
+} */
 
 
 .btn {
