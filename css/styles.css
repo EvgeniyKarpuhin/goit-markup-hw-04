@@ -219,6 +219,10 @@ ul {
     fill: #AFB1B8;
 }
 
+.soc-icons:hover {
+    fill: white;
+}
+
 .btn {
     width: 200px;
     height: 50px;
