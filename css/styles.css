@@ -208,13 +208,13 @@ ul {
     border-radius: 50%;
     height: 44px;
     width: 44px;
-    fill: #AFB1B8;
+    
 }
 
 
 
 .social-size:hover {
-    fill: white;
+    color: white;
     background-color: #2196F3
 }
 
