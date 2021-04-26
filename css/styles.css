@@ -488,6 +488,10 @@ ul {
     justify-content: space-between;
 }
 
+.social-modern-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
 .social-size-footer {
     display: flex;
     justify-content: center;
@@ -503,10 +507,10 @@ ul {
     background-color: #2196F3
 }
 
-.social-modern-footer {
+/* .social-modern-footer {
     margin-right: 10px;
 }
 
 .social-modern-footer:last-child {
     margin-right: 0;
-}
+} */
