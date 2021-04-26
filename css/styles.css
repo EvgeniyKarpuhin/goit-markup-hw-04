@@ -208,11 +208,12 @@ ul {
     border-radius: 50%;
     height: 44px;
     width: 44px;
-}
-
-.soc-icons {
     fill: #AFB1B8;
 }
+
+/* .soc-icons {
+    fill: #AFB1B8;
+} */
 
 .social-size:hover {
     color: white;
