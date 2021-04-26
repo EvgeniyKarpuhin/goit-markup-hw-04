@@ -415,6 +415,7 @@ ul {
 }
 
 .clients-href:hover {
+    color: #2196F3;
     border: 1px solid #2196F3; 
 }
 
@@ -507,11 +508,3 @@ ul {
 .social-size-footer:hover {
     background-color: #2196F3
 }
-
-/* .social-modern-footer {
-    margin-right: 10px;
-}
-
-.social-modern-footer:last-child {
-    margin-right: 0;
-} */
