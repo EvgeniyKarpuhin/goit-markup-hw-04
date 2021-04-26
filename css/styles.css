@@ -210,13 +210,13 @@ ul {
     width: 44px;
 }
 
+.soc-icons {
+    fill: #AFB1B8;
+}
+
 .social-size:hover {
     color: white;
     background-color: #2196F3
-}
-
-.soc-icons {
-    fill: #AFB1B8;
 }
 
 
