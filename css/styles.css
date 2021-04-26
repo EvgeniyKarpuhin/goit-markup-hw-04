@@ -488,15 +488,26 @@ ul {
     justify-content: space-between;
 }
 
-.footer-social-adress i {
+.social-size-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.adress-social .fab {
+/* .footer-social-adress i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+} */
+
+/* .adress-social .fab {
     color: white;
     border-radius: 50%;
     cursor: pointer;
@@ -525,4 +536,4 @@ ul {
 
 .social-modern-footer:last-child {
     margin-right: 0;
-}
+} */
