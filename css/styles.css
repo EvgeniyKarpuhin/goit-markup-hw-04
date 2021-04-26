@@ -201,17 +201,6 @@ ul {
     
 }
 
-.social-modern-type {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.social-modern-type:last-child {
-    margin-right: 0;
-}
-
 .social-size {
     display: flex;
     align-items: center;
@@ -224,10 +213,6 @@ ul {
 .social-size:hover {
     color: white;
     background-color: #2196F3
-}
-
-.soc-icons {
-  
 }
 
 .btn {
