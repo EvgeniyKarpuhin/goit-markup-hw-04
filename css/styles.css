@@ -499,41 +499,10 @@ ul {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* .footer-social-adress i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-} */
-
-/* .adress-social .fab {
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
+.social-modern-footer:not(:last-child) {
     margin-right: 10px;
 }
 
-.adress-social .fab:last-child {
-    margin-right: 0;
-}
-
-.adress-social .fab:hover {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: white;
-    background-color: #2196F3
-}
-
-.social-modern-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-}
-
-.social-modern-footer:last-child {
+/* .social-modern-footer:last-child {
     margin-right: 0;
 } */
